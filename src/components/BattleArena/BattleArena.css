@@ -1,0 +1,83 @@
+.battle-arena {
+  margin-top: 2rem;
+}
+
+.battle-arena__controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.battle-arena__select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.battle-arena__button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.battle-arena__button:hover {
+  background-color: #45a049;
+}
+
+.battle-arena__winner-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.battle-arena__round-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.battle-arena__round-item {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.battle-arena__history {
+  margin-top: 2rem;
+  border-top: 2px solid #ccc;
+  padding-top: 1rem;
+}
+
+.battle-arena__battle-history-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.battle-arena__battle-history-item h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.battle-arena__battle-history-item ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+.battle-arena__battle-history-item li {
+  padding: 0.25rem 0;
+  border-bottom: 1px dashed #ddd;
+  font-size: 0.95rem;
+}
