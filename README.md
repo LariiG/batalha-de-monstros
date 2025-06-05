@@ -80,4 +80,4 @@ Este projeto foi desenvolvido para fins de desafio técnico. Fique à vontade pa
 
 ---
 
-Feito com 💥 por Larissa Gontijo
+Feito por Larissa Gontijo
